@@ -1,0 +1,30 @@
+{
+  "_resourceType": "scene",
+  "id": "94c18861-b352-4f49-a64d-52f2e3415077",
+  "_index": 2,
+  "type": "TOPDOWN",
+  "name": "Outside",
+  "symbol": "scene_outside",
+  "x": 399,
+  "y": 279,
+  "width": 32,
+  "height": 32,
+  "backgroundId": "1b7fa267-d716-40f0-b0d0-f4f966610e07",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "872f61cf-bd62-4e58-92ee-a751e7335fe9"
+      },
+      "id": "5177b82a-d7ca-48d6-b88c-1567971e7ac7"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00400+"
+}
