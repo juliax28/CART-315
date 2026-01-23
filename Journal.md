@@ -26,7 +26,7 @@ was really a test to see what I learnt. I was happy to see that the engine’s l
 incredibly simple and easy to use, and I was able to do most of the coding on my own, while
 following the official Game Maker’s tutorial on ‘how to build a simple platformer in 15
 minutes’ on YouTube to remind myself how to operate within the engine’s interface.
-!(Media/JournalPNG01.png)
-!(Media/JournalPNG02.png)
-!(Media/JournalPNG03.png)
-!(Media/JournalPNG04.png)
+![](Media/JournalPNG01.png)
+![](Media/JournalPNG02.png)
+![](Media/JournalPNG03.png)
+![](Media/JournalPNG04.png)
