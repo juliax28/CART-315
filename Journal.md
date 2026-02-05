@@ -41,3 +41,51 @@ The game we imagined, called "Think" is a story-based visual-novel type of game 
 Of course, the demo is an extremel bare-bones version of the original idea, but I am still very much inspired by it and wish to continue developing on it in hopes of seeing it completed with all the previously imagined functionalities. Although the project was originally done in JavaScript, I think using a game engine will really help with it's development.
 The tiny demo can be played here: https://olivax28.github.io/CART263//Projects/Think_FInal/
 That's all for now!
+# Prototype Journal 03 – Exploring Unity and Drafting Ideas to Further “Think”
+## Getting Things in Order and Exploring Unity
+Continuing from last week, I made it my goal to explore unity, familiarize myself with the engine, and explore possibilities to further “Think” as a project. Mostly, I want to begin drafting ideas, sketches and concepts to flesh out the following aspects:
+- How items will be collected and affect the story
+- The menu screens + levels
+- What puzzles and other challenges will look like in the game.
+In order to do this, I would like to create a list of the things I need to figure out. Originally, the tiny game demo was made in Javascript, so not only will I need to figure out the functionality of the aforementioned new sections, I also need to re-write the code for what already exists, as the basic structure will most likely remain the same. Furthermore, I am not sure whether or not I actually want to even use Unity, as I also have my eye on GameMaker.
+This is the current list of all the things I need to figure out:
+- FIRST: Re-impliment what I already have in Javascript into the game engine of my choice 
+- Narrative development
+- Item collection — create an inventory system
+- Map + level selection
+- Save System
+- More in-depth character interaction
+- Room exploration – look around the rooms and explore more
+- Originally, the game was supposed to have a ‘journal’ that the main character would occasionally write in to develop the narrative. I would like to include this too. Could this double as level/chapter select?
+- More in-depth “emotions” from the character that affect the story
+I’m expecting this list to change as I continue, but I hope I can get to including these elements since I wasn’t able to originally!
+## Exploring Unity
+Also this week, I have tried to take this chance to explore Unity more. Although I’m not sure that I’m going to use it for my final project, I still wanted to know more about it. To do this, I followed this tutorial https://www.youtube.com/watch?v=xx1oKVTU_gM
+
+Most of the tutorial worked, which was nice as I wasn’t able to get anything made last week. However, I did want to find another tutorial that maybe used a more recent version of unity, since I kept running into issues regarding the version of my editor that made parts of this tutorial difficult. At the same time, I want to also explore GameMaker moving forward since I was quite happy using it for the first project!
+
+Potential Tutorials I plan to follow to continue my game exploration, with a focus on the dialogue system:
+Unity:
+Branching dialogue and dialogue systems in Unity with character emotes: https://www.youtube.com/watch?v=1198z5dDc8g
+Potentially interesting tutorial - Graph nodes https://www.youtube.com/watch?v=Spa8au6cOmo
+Great tutorial to learn Unity basics: https://www.youtube.com/watch?v=AmGSEH7QcDg&list=PLzDRvYVwl53vxdAPq8OznBAdjf0eeiipT&index=2
+
+
+
+GameMaker:
+Create a Simple Menu System: https://www.youtube.com/watch?v=B4LdYrjHSMU
+Interesting tutorial and tools on branching dialogue https://www.youtube.com/watch?v=r_hqY-7rT0c
+This is another dialogue system tutorial, which is constructed in a similar way to the original JS: https://www.youtube.com/watch?v=k3AAxKOl-yU Although the tutorial isn’t the best, I can get an idea of an alternative way to set up dialogue.
+
+## Finally…prototyping
+I finally got to sketching out some ideas for “Think”, just to get me thinking about what sort of functionality I’ll be needing to implement going forward. These are just very fast sketches to give myself an iea of what assets and what sort of code I have to start thinking about!
+![](Media/Journal03_01.png)
+![](Media/Journal03_02.png)
+![](Media/Journal03_03.png)
+
+
+
+## For next week:
+experiment with the GameMaker branching dialogue tutorials and try to get some sort of a scene working.
+Begin the Unity “CodeMonkey” tutorial 
+
