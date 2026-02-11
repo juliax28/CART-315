@@ -13,19 +13,28 @@ public class BrickLayer : MonoBehaviour {
         Lay();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void Lay() {
         for (int i = 0; i < columns; i++) {
             for (int j = 0; j < rows; j++) {
-                float xPos = -columns + (i * bs_h);
+                float xPos = - columns + (i * bs_h);
                 float yPos = rows - (j * bs_v);
+
+                int value;
+                Color c = new Color();
+                if(j % 2 == 0){
+                        value = 10;
+                    c = new Color.red;
+                }
+                else {
+                    value = 5;
+                    c = Color.blue;
+                }
+                GameObject b= Instantiate(brick, new Vector3(xPos, yPos, 0), transform.rotation, this.transform);
+                b.GetComponent<BrickScript>().pointValue = value;
+                b.GetComponent<SpriteRenderer>().color = c;
                 
-                Instantiate(brick, new Vector3(xPos, yPos, 0), transform.rotation, this.transform);
+                // Instantiate(b, new Vector3(xPos, yPos, 0), transform.rotation, this.transform);
 
             }
         }

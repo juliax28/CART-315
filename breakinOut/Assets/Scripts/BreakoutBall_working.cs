@@ -11,7 +11,7 @@ public class BreakoutBall_working : MonoBehaviour
     public float maxSpeed = 10f;
     public float minSpeed = 2f;
     
-    public AudioSource scoreSound, blip;
+    public AudioSource scoreSound, blip, dead;
     
     
     private int[] dirOptions = {-1, 1};
@@ -51,6 +51,7 @@ public class BreakoutBall_working : MonoBehaviour
         ballSpeed = 2;
         transform.position = new Vector2(0, 0);
         gameRunning = false;
+        dead.Play();
     }
     
     // if the ball goes out of bounds
