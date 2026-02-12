@@ -8,7 +8,7 @@ public class TabController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        ActivateTab(0);
+        ActivateTab(1);
     }
 
     public void ActivateTab(int tabNo)
@@ -17,8 +17,10 @@ public class TabController : MonoBehaviour
         {
             pages[i].SetActive(false);
             tabImages[i].color = Color.grey;
+            
         }
         pages[tabNo].SetActive(true);
         tabImages[tabNo].color = Color.white;
+      
     }
 }
