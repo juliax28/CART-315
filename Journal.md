@@ -89,3 +89,21 @@ I finally got to sketching out some ideas for “Think”, just to get me thinki
 experiment with the GameMaker branching dialogue tutorials and try to get some sort of a scene working.
 Begin the Unity “CodeMonkey” tutorial 
 
+# Prototype Journal 04 - Exploring more resources and Learning menus + UI
+## Following a Menu Tutorial
+After some consideration, I decided that I would most likely do my final assignment in GameMaker, but up until then, I would try to find different ways to integrate similar functions in Unity. 
+I decided to follow this menu tutorial https://www.youtube.com/watch?v=liba3xGI4gM
+,which was very simple and straightforward, but it took me some time to get through. Unfortunately, I was not able to get it to work, but I hope to look over my issues in class this week and try to see what isn’t working. I hope that once I get this working in GameMaker, I can also continue onto the inventory tutorial that follows after this one, to continue my research into implementing these systems in Unity.
+
+This tutorial took me through the steps of creating a simple UI interface, importing a custom font + assets, creating tabs and working with simple code to bring the pages and tab into arrays that could be triggered on a mouse click. As was mentioned before, I was sadly unable to get the code to work, even after consulting friends who are pretty good in unity! 
+
+## Stepping it up moving forwards
+Due to my busy schedule this past week, I was unable to do as much as I wanted to, leaving me to only watch the videos on the GameMaker dialogue systems without actually getting the time to try it out myself. However, I hope to increase my productivity in the next week and continue with the UI development.
+
+## Goals for next week…
+With midterms rolling in, I realize it might be difficult to get a lot of work in, but I hope to do the following:
+Continue the UI tutorial series into making the inventory system:
+https://www.youtube.com/watch?v=wlBJ0yZOYfM
+Do more research on branching dialogue system and try it out for myself, whether that be in GameMaker or Unity.
+
+
