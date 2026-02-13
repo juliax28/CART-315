@@ -11,7 +11,7 @@ public class BreakoutBall : MonoBehaviour
     public float maxSpeed = 10f;
     public float minSpeed = 2f;
 
-    public AudioSource scoreSound, blip;
+    public AudioSource scoreSound, blip, dead;
     
     
     private int[] dirOptions = {-1, 1};
@@ -26,12 +26,12 @@ public class BreakoutBall : MonoBehaviour
     }
     
     void Update() {
-        if (Input.GetKeyDown(KeyCode.Space) && !gameRunning) StartCoroutine(Launch());
+        if (Input.GetKeyDown(KeyCode.Space) && !gameRunning) Launch();
     }
 
 
     // Start the Ball Moving
-    private IEnumerator Launch() {
+    private void Launch() {
         gameRunning = true;
         //yield return new WaitForSeconds(1.5f);
         
@@ -43,7 +43,6 @@ public class BreakoutBall : MonoBehaviour
         // Add a vertical force
         rb.AddForce(transform.up * -1f);
         
-        yield return null;
     }
 
     public void Reset() {
@@ -80,6 +79,7 @@ public class BreakoutBall : MonoBehaviour
         if (other.gameObject.tag == "Reset")
         {
             //GameManager.S.lives -= 1;
+            dead.Play();
             GameManager.S.LoseLife();
             Reset();
         }

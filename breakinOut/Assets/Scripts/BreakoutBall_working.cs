@@ -51,7 +51,6 @@ public class BreakoutBall_working : MonoBehaviour
         ballSpeed = 2;
         transform.position = new Vector2(0, 0);
         gameRunning = false;
-        dead.Play();
     }
     
     // if the ball goes out of bounds
@@ -80,13 +79,15 @@ public class BreakoutBall_working : MonoBehaviour
         // did we hit the Bottom
         if (other.gameObject.tag == "Reset") {
             // GameManagement.S.lives -= 1;
-            GameManagement.S.LoseLife();
+            dead.Play();
+            GameManager.S.LoseLife();
             Reset();
         }
 
         if (other.gameObject.tag == "Brick") {
+            scoreSound.Play();
             int pv = other.gameObject.GetComponent<BrickScript>().pointValue;
-            GameManagement.S.AddPoint(pv);
+            GameManager.S.AddPoint(pv);
             Destroy(other.gameObject);
         }
 

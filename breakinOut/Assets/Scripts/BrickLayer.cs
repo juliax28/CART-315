@@ -5,6 +5,10 @@ public class BrickLayer : MonoBehaviour {
     public GameObject brick;
     public int rows, columns;
     public float bs_h, bs_v;
+
+    public Color colorA, colorB;
+
+    
     
     public int numBricks;
     
@@ -13,28 +17,27 @@ public class BrickLayer : MonoBehaviour {
         Lay();
     }
 
-
     public void Lay() {
         for (int i = 0; i < columns; i++) {
             for (int j = 0; j < rows; j++) {
-                float xPos = - columns + (i * bs_h);
+                float xPos = -columns + (i * bs_h);
                 float yPos = rows - (j * bs_v);
 
-                int value;
+                int     value;
                 Color c = new Color();
-                if(j % 2 == 0){
-                        value = 10;
-                    c = new Color.red;
+                if (j % 3 == 0) {
+                    value = 10;
+                    c = colorA;
                 }
                 else {
                     value = 5;
-                    c = Color.blue;
+                    c = colorB;
+
                 }
-                GameObject b= Instantiate(brick, new Vector3(xPos, yPos, 0), transform.rotation, this.transform);
+
+                GameObject b = Instantiate(brick, new Vector3(xPos, yPos, 0), transform.rotation, this.transform);
                 b.GetComponent<BrickScript>().pointValue = value;
                 b.GetComponent<SpriteRenderer>().color = c;
-                
-                // Instantiate(b, new Vector3(xPos, yPos, 0), transform.rotation, this.transform);
 
             }
         }

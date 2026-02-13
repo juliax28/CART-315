@@ -13,6 +13,8 @@ public class TabController : MonoBehaviour
 
     public void ActivateTab(int tabNo)
     {
+        Debug.Log("Clicked");
+        
         for(int i = 0; i < pages.Length; i++)
         {
             pages[i].SetActive(false);
