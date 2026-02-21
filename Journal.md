@@ -105,5 +105,23 @@ With midterms rolling in, I realize it might be difficult to get a lot of work i
 Continue the UI tutorial series into making the inventory system:
 https://www.youtube.com/watch?v=wlBJ0yZOYfM
 Do more research on branching dialogue system and try it out for myself, whether that be in GameMaker or Unity.
+# Prototype Journal 05 - Experimenting with branching dialogue systems.
+## Leaving off from last week
+One of the areas I wanted to continue exploring was the creation of an inventory system, building off of the UI tutorial from last week. Unfortunately, moving forward in the weel, I found myself caught up in finishing a few larger projects for midterms. With this in mind, and the fact that I was still unable to get last week’s tutorial to work, I decided it would be more interesting to go onto something completely different, and something possibly even more fundamental to any game that I would want to make – dialogue.
+
+## Research on dialogue options
+The more I delved into the options for creating dialogue in unity, the more I realized how many options there were. I decided to go with this one:
+https://www.youtube.com/watch?v=Spa8au6cOmo&t=118s. This tutorial teaches you how to use the new ‘graph toolkit’ to build a dialogue system in Unity. Unfortunately, I was having some issues getting it to work, so I decided to switch gears for this week.
+
+## Switching Gears – delving into 3D open world exploration
+Feeling slightly discouraged after two weeks of non-working tutorials, I decided I wanted to do something that would yield a physical outcome, which is why I decided to experiment a little with open-world exploration and premade assets. Following this tutorial https://www.youtube.com/watch?v=WbZpj8WcjN0
+
+I found that doing this tutorial,because it was fun, easy and yielded a very tangible result, made me feel more encouraged to pursue my projects moving forward. Using the premade assets sped up the process very quickly, and although I would rather make my own environment assets, I can see myself using pre-made pieces moving forward on things like player mechanics, cameras and other very common but tedious necessities for a game prototype.
+
+The end results was a fully-explorable 3D world, and I was able to delve into the 3D tools that I hadn’t explored before.
+
+The 3D world made from the tutorial was the one presented below: a first-person 3D world populated by trees with colliders, animated grass, rocks and flowers.
+
+![](Media/3DEnviro_01.gif)
 
 
