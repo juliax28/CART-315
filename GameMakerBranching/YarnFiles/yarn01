@@ -1,0 +1,48 @@
+#__PrivCrochet_version:1
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 860,408
+__PrivCrochet_tags: 
+title: Start
+---
+<<bg 0>>
+Boy: Where are you going?
+    -> The classroom
+        Boy: Let's go!
+        <<jump Option A>>
+    -> The music classroom
+        Boy: Let's go there!
+    <<jump Option B>>
+    ->  The bathroom <<if visited("Option C") == false>>
+        Boy: Okay!
+    <<jump Option C>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1318,139
+__PrivCrochet_tags: 
+title: Option A
+---
+<<bg (1)>>
+Me: This is the classroom.
+Boy: Wow!
+<<jump Start>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1322,377
+__PrivCrochet_tags: 
+title: Option B
+---
+<<bg (2)>>
+Me: This is the music room.
+Boy: Wow!
+<<jump Start>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1308,637
+__PrivCrochet_tags: 
+title: Option C
+---
+<<bg (3)>>
+Me: This is the bathroom.
+Boy: EW!
+<<jump Start>>
+===

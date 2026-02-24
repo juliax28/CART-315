@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"functions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"functions",
+  "parent":{
+    "name":"new_blank",
+    "path":"new_blank.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
