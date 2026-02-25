@@ -31,5 +31,5 @@ function background_set_index(_arr) {
 function chatterbox_update() {
 	
 	node = ChatterboxGetCurrent(chatterbox);
-	test = ChatterboxGetContent(chatterbox, 0);
+	text = ChatterboxGetContent(chatterbox, 0);
 }

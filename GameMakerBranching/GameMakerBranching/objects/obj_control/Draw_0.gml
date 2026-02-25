@@ -1,11 +1,12 @@
 /// @description draw sprites, text and options
-
+draw_set_font(Font1);
 draw_set_valign(fa_middle);
 
 var _margin_text = 128;
 var _margin_char = 100;
 
-if IsChatterbox(chatterbox) and text != undefined{
+if IsChatterbox(chatterbox) and text != undefined
+{
 	var _me = (ChatterboxGetContentSpeaker(chatterbox, 0) == "Me");
 	
 	draw_sprite_ext(Characters, 0 ,_margin_char,		room_height, size[_me], size[_me], 0, colour[_me], 1);
@@ -34,7 +35,7 @@ if IsChatterbox(chatterbox) and text != undefined{
 			 _xx = room_width / 2;
 			 _yy = (room_height / 6) * (i + 2);
 		 
-			 draw_rectangle_center(_xx, _yy, _width, _height, false, C_balck, 0.5);
+			 draw_rectangle_center(_xx, _yy, _width, _height, false, c_black, 0.5);
 		 
 			 var _icon = "";
 			 if (option_index == i) _icon = "> ";

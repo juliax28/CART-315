@@ -4,7 +4,7 @@ __PrivCrochet_position: 860,408
 __PrivCrochet_tags: 
 title: Start
 ---
-<<bg 0>>
+<<bg (0)>>
 Boy: Where are you going?
     -> The classroom
         Boy: Let's go!

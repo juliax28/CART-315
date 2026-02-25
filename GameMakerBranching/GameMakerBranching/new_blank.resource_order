@@ -13,6 +13,7 @@
     {"name":"Variables and Constants","order":8,"path":"folders/Chatterbox/Variables and Constants.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Font1","order":7,"path":"fonts/Font1/Font1.yy",},
     {"name":"obj_control","order":5,"path":"objects/obj_control/obj_control.yy",},
     {"name":"Room1","order":6,"path":"rooms/Room1/Room1.yy",},
     {"name":"__ChatterboxArrayCopyPart","order":2,"path":"scripts/__ChatterboxArrayCopyPart/__ChatterboxArrayCopyPart.yy",},
@@ -125,7 +126,7 @@
     {"name":"ChatterboxWait","order":12,"path":"scripts/ChatterboxWait/ChatterboxWait.yy",},
     {"name":"functions","order":4,"path":"scripts/functions/functions.yy",},
     {"name":"IsChatterbox","order":6,"path":"scripts/IsChatterbox/IsChatterbox.yy",},
-    {"name":"Backgrounds","order":3,"path":"sprites/Backgrounds/Backgrounds.yy",},
+    {"name":"backgrounds","order":3,"path":"sprites/backgrounds/backgrounds.yy",},
     {"name":"Characters","order":2,"path":"sprites/Characters/Characters.yy",},
   ],
 }

@@ -13,7 +13,7 @@
 #macro CHATTERBOX_ALLOW_SCRIPTS  true
 
 // Whether Chatterbox functions should be executed using an array of parameters.
-#macro CHATTERBOX_FUNCTION_ARRAY_ARGUMENTS  false
+#macro CHATTERBOX_FUNCTION_ARRAY_ARGUMENTS  true
 // Note to Juju: Do NKT remove this macro in future versions
 
 // Whether to enter into a "wait" state before options are presented when using singleton
