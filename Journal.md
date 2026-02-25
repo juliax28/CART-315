@@ -122,6 +122,59 @@ The end results was a fully-explorable 3D world, and I was able to delve into th
 
 The 3D world made from the tutorial was the one presented below: a first-person 3D world populated by trees with colliders, animated grass, rocks and flowers.
 
+
 ![](Media/3DEnviro_01.gif)
+
+
+
+# Variation Journal 01
+## Considering Ideas
+Originally, I came into the class with the idea that I would build on one of my previous projects, with this previous project being “Think”; a choice-based game where the player is tasked with helping the main character navigate through her life, ultimately deciding whether or not she is able to overcome her mental illness. Although this project is very important to me, I did come up with some other ideas during our last class. One of these ideas was what I playfully called an “evil pet-care” simulator. It would be based on games such as ‘Nintendogs’ which have the player adopt and take care of an animal. However, mine would feature the player working in a lab taking care of hybrid creatures, while also having to aid in the experimentation on these creatures. My goal for this game would be to communicate themes surrounding animal testing and the ethical concerns regarding people’s tendencies to only help ‘cute’ creatures versus disregarding ‘ugly’ ones in animal rescue + conservation.
+
+## Gameplay and Brainstorming
+If I am to continue with my new idea, I would be basing myself partly on the aforementioned “Nintendogs” game for its gameplay as well, playing on the nostalgic aspect to juxtapose the uncomfortable themes. 
+“Nintendogs” operates mainly through a ‘main menu’ that allows the player to choose from different activities in order to care for the pet. 
+![](Media/Nintendogs03.jpg)
+While I envision my game to have a narrative aspect to it as well, the player would be navigated back to this menu after receiving narrative pieces in order to continue taking care of/managing the creature.
+Once chosen, the player would then be brought to a new screen where they would be prompted to play a minigame based on whatever option was chosen. In “Nintendogs” these options would be things such as walking the dog, feeding it etc. whereas in my game there would be different options for the creature, such as bringing it to the lab, as well as more traditional options like feeding it, cleaning its cage etc.
+![](Media/Nintendogs01.jpg)
+![](Media/Nintendogs02.jpg)
+
+The player would, in theory, be prompted to do things that are more and more uncomfortable, before they must make a choice to continue, or risk ‘losing’ the game in order to save the creature under their supervision. The menu options would also be changed after visual-novel style ‘cutscenes’ that would progress the story between regular gameplay.
+
+## Developing
+If I were to proceed with the pet-care idea, I would be making a detailed ‘vertical slice’ of the game, as a full version of something like this would take far longer to make! Also, another key difference: I would not be implementing the 3D, and would instead be illustrating the visuals for the game 
+
+As for design values, I think they are relatively similar for both ideas that I want to potentially continue with in the class. I aim to prioritize creativity, narrative and clarity in order to create an interesting and fun experience for the player. After all, the main way to make a theme make an impact is if the player has fun getting to the message at the end of the game!
+
+## Work for this week
+As for what I physically accomplished this week, I finally got to trying out a branching narrative system in GameMaker! And to be honest, I think this one is the best I’ve come across, as it allows for a lot of flexibility in the narrative writing. Moreover, I can use this same system for both games that I want to make, since they both have a branching-narrative aspect to them. 
+
+The system I created using this https://www.youtube.com/watch?v=r_hqY-7rT0c&t=259s
+tutorial and the creator’s assets, implements the “Chatterbox” plugin for GM and the “Crochet” app to work.
+
+Chatterbox: https://www.jujuadams.com/Chatterbox/#/3.2/
+Crochet: https://github.com/FaultyFunctions/Crochet
+
+In crochet, there is minimal coding, and is basically a ‘tree’ visualisation of the dialogue and options that will be later implemented in GM.
+
+![](Media/yarn01.png)
+
+Once in GM, Chatterbox can be used to parse the information into something understood by GM, and can be dynamically added on and changed by going back into Crochet’s “yarn” file as shown above.
+
+This was the final result of the tutorial, an interactive system with character sprites that become bigger/larger when speaking, changing backgrounds and clickable options.
+
+![](Media/GM01.png)
+![](Media/GM02.png)
+![](Media/GM03.png)
+
+Because I will not be using the assets and will be modifying the system, I will call this a partial implementation prototype to test out this feature that I will implement into the larger scope of whichever game I go forward with.
+
+## For next week
+Next week I will of course settle on one of my two ideas, but I also want to begin creating a system that is more customized, and with place-holder assets begin the story-portion of my game.
+
+
+
+
 
 
