@@ -173,6 +173,53 @@ Because I will not be using the assets and will be modifying the system, I will 
 ## For next week
 Next week I will of course settle on one of my two ideas, but I also want to begin creating a system that is more customized, and with place-holder assets begin the story-portion of my game.
 
+# Variation Journal 02 2026-03-12
+
+## Finally Settling on a Project
+Before last week, I was quite torn between the two ideas that I previously had. One option, and the idea I had coming into the class, was to work on finishing/polishing the game “Think”. However, I was torn between this and going forward with making a vertical slice for a new concept. 
+Funnily enough, I went with neither. In fact, after some discussion, I decided to team up with Olivia Axiuk for the final project, working together to hopefully create something far more polished than either of us could have done on our own. 
+There were a few factors that led me to make this decision. Firstly, I just genuinely felt excited about her idea; a sort of cozy mystery game where you play as an electronics shop owner, navigating unfamiliar digital spaces in order to complete tasks and satisfy your customers, with a few spooky twists.
+Secondly, as the semester progressed, we both began to feel the pressure of the upcoming finals. Knowing that we work well together, we decided that teaming up would alleviate some of the pressure and allow us to not only to hopefully make a better final product, but to also actually enjoy the creation process.
+Lastly was simply a software compatibility issue. My original ideas were to be done in GameMaker, using Crochet and Chatterbox to implement a branching narrative. Although I am still very interested in pursuing these avenues in the future, I found out that gameMaker is no longer made to be compatible with Macbooks. This would heavily hinder my ability to work in class, and so I decided to turn my attention to a project done fully in Unity.
+
+## Concept Design
+To begin, we decided it would be best to get a firm grasp of the visuals of the game in order to better direct our decisions going forward. I began sketching some character designs, environment sketches and floorplan layouts for the electronics shop that the game would take place in. 
+Originally, the game was supposed to be far more ‘horror’ leaning, but as we discussed together, we finally decided to go with something far more ‘creepy-cute’. We mixed together a simplistic, nostalgic style with unexpected eerie elements that the player would find while trying to complete their tasks. However, we definitely ended up putting much more of an emphasis on the ‘cute’!
+Here are a couple of full concept sketches, featuring one of the customers and overall ‘feel’.
+![](Media/GameConcept02.png)
+![](Media/GameConcept01.png)
+
+## Functionality Implementation
+The game has two main ‘modes’ that the player can interact in. Firstly, we wanted the player to be able to walk around the shop in a 3D space. As the game progresses, the player will have to talk to the clients of their store and fetch items hidden around the room. Luckily, Olivia had already begun to explore how to implement an interaction system, and have a bubble pop up with text when an item or character is interacted with.
+![](Media/BlurbTest01.gif)
+
+This was an excellent place to start, and is also in itself a necessary interaction in our game.
+Off of this, we began to design the more menu/UI portion of the game. The idea was that, with every customer that comes in, the player will have to fix software issues on their devices, and would therefore need to navigate through the files. With on-screen prompts, they will be guided to complete the tasks. These sketches were done by Olivia.
+![](Media/menuskect01.png)
+![](Media/menuskect02.png)
+![](Media/menuskect03.png)
+![](Media/menuskect04.png)
+
+With this in mind, we used the original interaction system, and built a new function that, when intercting with the computer in the room, makes the menu pop up. The menu is made with Unity’s buttons, and uses on-click functions to both hide and make the various menus appear.
+![](Media/PCinteract.png)
+![](Media/ComputerTest01.gif)
+
+The final task I completed for this week was a simple 3D model for our first customer, who is featured in the sketches. We wanted to bring a sense of nostalgia to the game. Especially since our aim is to play with retro-aesthetics, we knew the visuals wanted to coincide. Therefore, we decided to keep the models very low-poly, and will instead implement most of the details with the textures (yet to be seen).
+
+![](Media/jsculpt02.png)
+![](Media/jscupt01.png)
+
+## Tasks Completed, and Tasks to be Done
+I feel quite confident with our progress so far. Already, we have the base for most of the functionality of the game. The next biggest thing is to implement a task system that will automatically update as the player completes the task, and that triggers a new customer to come in when completed. Theoretically, these customers and their associated functions, models and such will be in an array that will move forward when the “final” task on the previous customer is completed.
+
+## For Next Week
+For next week, I want to finish figuring out the base functionality. Meaning, I would like to at least get a very basic task system working with Olivia. I would also like to get more of the 3D models done for the store environment. If possible, i would also like to get one 'item' working, meaning an interactable object in the store that the player can use to complete one of the aforementioned tasks.
+
+
+
+
+
+
 
 
 
