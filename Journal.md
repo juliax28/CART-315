@@ -216,6 +216,54 @@ I feel quite confident with our progress so far. Already, we have the base for m
 For next week, I want to finish figuring out the base functionality. Meaning, I would like to at least get a very basic task system working with Olivia. I would also like to get more of the 3D models done for the store environment. If possible, i would also like to get one 'item' working, meaning an interactable object in the store that the player can use to complete one of the aforementioned tasks.
 
 
+# Variation Journal 03 2026-03-17
+## Last week’s goals
+As of last week, my sister and I were set on scoping out the story, creating more assets to get a stronger grip of the visuals for our little game, and finding a way to implement a task/quest system. I worked on the quest system, while also helping out with the story. Out of our goals, we got most of this done. We have a much better idea for the narrative, and we have more 3D models and visuals. However, as far as the task system, this ended up being quite a bit more complicated than I initially thought. Overall, though, I’d say our progress is pretty decent.
+
+## Visuals
+As far as visuals, we finally have a main character model, and Olivia did some work on the lighting in order to give more ambiance to the scene inside the shop. We also have a proper little 90s PC to interact with.
+
+![](Media/MC01.png)
+*Main Character Sculpt. Although not seen directly, their face will show in mirrors. And it’s fun to be able to see your body as the player when looking down.*
+![](Media/PC01.png)
+*A proper little computer*
+![](Media/Lighting01.png)
+*Slightly more mysterious lighting*
+
+Moreover, Olivia went the extra mile and edited the computer homepage/menu, which now allows for the windows to be dragged around the screen for a more interactive experience.
+
+![](Media/MovingWindows.gif)
+
+This small change, when I tried it out, really made quite the difference in having the interaction feel more convincing. Moreover, we plan to integrate the ability to bring each window forward with a click, further adding to the realistic feel of interacting with the computer.
+
+## Functionality Integration
+As for coding, I began trying to find a way to have a well-structured quest system that would allow for collecting objects, completing tasks and having said tasks ‘unlock’ other areas of the game/other quests.
+
+Because I do not have much experience coding in C#, I knew I wanted to follow a tutorial in order to get myself started. I found “Shaped By Rain Studio’s” tutorial on Youtube (link here: https://www.youtube.com/watch?v=UyTJLDGcT64&t=2093s), which covers all of this and more. 
+
+The tutorial took me through the steps of having multiple manager systems, an interactable quest object and much more.
+
+Unfortunately, due to the length of the tutorial and its surprising complexity, I was only able to make it to minute 34 if 60. I hope to continue the tutorial and get this system done so that I can modify pieces of the code for our game.
+
+
+![](Media/taskTut02.png)
+*Default Assets given by the tutorial, with the little orange squiggle being my wonderful quest object.*
+![](Media/taskTut01.png)
+![](Media/taskTut03.png)
+*The console is reading my code! Hurrah!*
+![](Media/taskTut04.png)
+![](Media/taskTut05.png)
+![](Media/taskTut06.png)
+
+Moreover, I also seem to not be able to get the quest object to interact when I press ‘enter’ on my keyboard, but I’m not getting any errors. If I’m not able to resolve this, I will continue to watch the tutorial but will instead download the finished code, and have a look at it that way.
+
+## Next Week Goals
+### Next week
+- Continue furthering the narrative
+- Get a form of the quest system in the game
+- Continue working on the visuals
+
+That’s it for now !!
 
 
 
