@@ -232,7 +232,7 @@ As far as visuals, we finally have a main character model, and Olivia did some w
 
 Moreover, Olivia went the extra mile and edited the computer homepage/menu, which now allows for the windows to be dragged around the screen for a more interactive experience.
 
-![](Media/MovingWindows.mov)
+![](Media/MovingWindows.gif)
 
 This small change, when I tried it out, really made quite the difference in having the interaction feel more convincing. Moreover, we plan to integrate the ability to bring each window forward with a click, further adding to the realistic feel of interacting with the computer.
 
