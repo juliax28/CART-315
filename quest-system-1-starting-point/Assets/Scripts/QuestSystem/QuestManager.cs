@@ -9,8 +9,41 @@ public class QuestManager : MonoBehaviour
     private void Awake()
     {
         questMap = CreateQuestMap();
-        Quest quest = GetQuestById("CollectCoinsQuest");
-        Debug.Log(quest.info.displayName);
+        
+    }
+
+    private void OnEnable()
+    {
+        GameEventsManager.instance.questEvents.onStartQuest += StartQuest;
+        GameEventsManager.instance.questEvents.onAdvanceQuest += AdvanceQuest;
+        GameEventsManager.instance.questEvents.onFinishQuest += FinishQuest;
+    }
+    private void OnDisable()
+    {
+        GameEventsManager.instance.questEvents.onStartQuest -= StartQuest;
+        GameEventsManager.instance.questEvents.onAdvanceQuest -= AdvanceQuest;
+        GameEventsManager.instance.questEvents.onFinishQuest -= FinishQuest;
+    }
+
+    private void Start()
+    {
+        foreach(Quest quest in questMap.Values)
+        {
+            GameEventsManager.instance.questEvents.QuestStateChange(quest);
+        }
+    }
+
+    private void StartQuest(string id)
+    {
+
+    }
+    private void AdvanceQuest(string id)
+    {
+        
+    }
+    private void FinishQuest(string id)
+    {
+        
     }
 
     private Dictionary<string, Quest> CreateQuestMap()
