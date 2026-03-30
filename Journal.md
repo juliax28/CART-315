@@ -265,6 +265,65 @@ Moreover, I also seem to not be able to get the quest object to interact when I 
 
 That’s it for now !!
 
+# Variation Journal 04
+OOPS running a little late on this one…
+## What I was working on…
+Why was I late? Well, I’ve been desperately trying multiple ways to implement a quest system into the game.
+At first, I was following a complex tutorial (mentioned last week) that implemented a multi-facetted system that used a questSO, multiple prefabs and so on in order to create an extremely robust system that allowed for easy modular editing. Considering that I would like to continue working on this project past the ‘vertical slice’ that Olivia and I are aiming to have finished by the end of this project, I knew I wanted code that would be easily editable. 
+
+I was extremely determined to understand this system. But alas… even though I am quite certain I could have eventually gotten to wrap my head around all the content in the 1 hour video, I found that I just do not have enough time going forward.
+
+## Takeaways
+Luckily, I do not feel as if I totally wasted my time. In fact, following the tutorial and really trying to understand how the system worked got me to be way more familiar with creating a main code as an overarching controller, serializable and non-serialized variables, using prefabs and inputting them into serialized variables and also just the general functioning of C# and Unity. 
+
+Following the original tutorial, I made myself several pages of notes, as follows.
+
+![](Media/note01.jpeg)
+![](Media/note02.jpeg)
+![](Media/note03.jpeg)
+![](Media/note04.jpeg)
+*I was determined to understand this, clearly*
+
+Like I mentioned, while I did not continue with the original tutorial by “Shaped by Rain Studios”, it did help me wrap my mind around certain complex topics that I was unsure of originally.
+
+## The New Quest System…
+Of course, our game still needed a quest system, and luckily I was able to find a similar yet much more streamlined version of By Rain’s task system created by none other than the lovely “Game Code Library” on YouTube. Hers, while similar, is a much simpler system that also allows for a dynamically changing UI element that I thought would fit perfectly for our project.
+
+Following her tutorial, I managed to create several new functionalities for our game. 
+
+First, I created a simple script that allows for the dynamic addition of new items that can later be stored into an inventory (yet to be implemented). This script allows for collectible items to have a number ID assigned to them. This number allows them to be assigned to a specific quest. This specific one refers to the floppy disc, or ‘disc’.
+![](Media/ItemID.png)
+
+Next, I also created a simple “quest script”, which will be made more complex later, but for now the script allows for this quest to have a number ID which matches the associated quest item. It also allows for me to input separate quest descriptions, number of items to gather etc. for each individual quest, which can be made into individual scriptable objects. Moreover, I can choose which ‘type’ of quest each SO is once they're created from a list.
+![](Media/QuestScript.png)
+![](Media/QuestType.png)
+
+Awesome!
+
+Finally, I also have the quests hooked up to a dynamically changing UI. This is done through a script that allows for the UI text elements to be replaced dynamically with the text associated with the description of each quest. When a quest is added, the title, description and number of items associated with the received quests will appear here. This is controlled by another script that keeps track of what information goes where, called the ‘QuestUIController’. For now, as I am missing some quest functionality, you can see it in action through the repetition of the same quest over and over.
+![](Media/QuestUI.png)
+![](Media/QuestTest.png)
+
+## On My Teammate’s End…
+On the other end, Olivia worked on several aspects of the game as well. First and foremost, she finally got the interaction system finalized and working nicely, with visuals that tell the viewer what they’re interacting with. When trying it out, I found even just this small change made the game feel much more polished, and gave it that little extra detail that made playing it feel seamless.
+![](Media/InteractionSystemE.gif)
+
+More on UI, she also added in a scrollable window into the computer UI mode, which gives that extra little bit of realism.
+![](Media/scrollWindowgif.gif)
+
+She also worked more on the visuals, adding some 3D models into the game to populate the 3D space, which added a nice touch to the scene and also made the game have that little extra edge to bring it up a notch.
+![](Media/TV_model.png)
+
+## Reflection and where to go next…
+Next tasks to do on my end
+Finish the quest system with 
+Accept and give items
+Finalize the UI
+Inventory
+Overall
+Implement the story elements once full functionality is done
+Clean up the visuals
+### How exciting!
 
 
 
