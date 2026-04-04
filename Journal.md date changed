@@ -324,7 +324,7 @@ Overall
 Implement the story elements once full functionality is done
 Clean up the visuals
 ### How exciting!
-# Variation Journal 05 - April 4th 2025
+# Variation Journal 05 - April 4th 2026
 
 ## Overview of the week
 This week, I really focused on just getting the quest system to work, continuing through Game Code Libraries's tutorials from last week in order to create a fully fleshed-out quest-system. Moreover, I updated the dialogue system + UI to allow for branching dialogue, and to ‘accept’ the quest given by the NPC.
