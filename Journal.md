@@ -324,6 +324,44 @@ Overall
 Implement the story elements once full functionality is done
 Clean up the visuals
 ### How exciting!
+# Variation Journal 05 - April 4th 2025
+
+## Overview of the week
+This week, I really focused on just getting the quest system to work, continuing through Game Code Libraries's tutorials from last week in order to create a fully fleshed-out quest-system. Moreover, I updated the dialogue system + UI to allow for branching dialogue, and to ‘accept’ the quest given by the NPC.
+
+## NPC Update + Updated Dialogue System
+The NPC now works as a proper GameObject where a prefab can be dragged onto it, rather than the actual 3D model hosting the SO. Even more exciting is this SO hosting its own individual dialogue. 
+
+Before, Olivia worked on the interaction system. I built off of this interaction system in order to now have fully customizable dialogue, which also includes typing speed, auto progress lines and the most exciting … BRANCHING CHOICES!! With this, I also went in and edited the UI. While the bubble was cute, it was a little bit difficult to read and would be not as convenient as having a nice text UI that also includes the NPC’s name, and a little portrait (yet to be implemented and now shows up as the red square)
+![](Media/finaljournal03.gif)
+
+All of these aforementioned elements that control the dialogue are public variables that can be edited within the NPC’s SO, as shown below.
+![](Media/finaljournal01.png)
+
+## Quest Accepting 
+Next, Olivia and I worked on actually creating a proper quest! Now when interacting with Fred (our lovely NPC), when choosing “Sure”, we are accepting the quest. This quest, called ‘collectdisk” will appear in the computerUI, and also activates conditional dialogue on Fred’s end while the quest is in progress, causing him to say “please help!” when interacted with again.
+![](Media/finaljournal02.gif)
+
+Choosing which options ‘give the quest’ as well as what dialogue is activated conditionally is also all determined within the NPC’s SO.
+![](Media/finaljournal04.png)
+Also, not sure if I already mentioned this, but I also made it so that there are ‘items’ in the game associated with each quest as a prefab.
+![](Media/finaljournal05.png)
+## Story + Visuals Update
+
+While working on the code, we also got to continue our story map + visuals for the game. This included an updated story map, new icons and a script (that can now be implemented thanks to our nifty new dialogue system, nice!)
+![](Media/iconsCompilation.png)
+*new Icons Illustrations*
+![](Media/storyMap02.PNG)
+*Updated Story Map*
+![](Media/game_scriptBrainstorm.png)
+
+## Still to do
+Finish the quest system with a pickup + hand-in functionality
+THE INVENTORY!!!
+Implement the story into the functionality
+FInal visual adjustments
+
+FINAL STRETCH LETS GO!!
 
 
 
