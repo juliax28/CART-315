@@ -364,6 +364,33 @@ FInal visual adjustments
 FINAL STRETCH LETS GO!!
 
 
+# Variation Journal 06 - April 10th 2026
+Overview
+This one’s going to be a little shorter than usual, but since last week, we did a little bit of progress here and there on visual things, but our main focus was trying to get a working inventory system.
+
+## The Inventory System
+This has been somewhat of a headache to get working, for a few reasons. In order to implement a lot of our systems, we’ve been using “Game Code Librarie’s” tutorials and have modified them slightly to have it suit our needs. However, the game in those tutorials is a 2D game, while ours is 3D, resulting in some of the code being non-applicable. Although we’ve been able to get around a lot of issues, we’ve been having a lot of trouble with this one. Firstly, we decided it would be cute to have a ‘2.5D’ asset for the collectibles, sort of Minecraft style. However, despite the asset being a 2D image, it still exists in a 3D space, and is therefore still considered a 3D object, rendering our “find itemRect” obsolete in our code.
+![](Media/journal6PIC.png)
+
+We also, of course, have the inventory UI working, which can be activated via the ‘inventory’ button at the player’s bottom right. We decided to keep it visually on theme with the sort of vintage-y look and have it look like a window from Windows XP.
+![](Media/journal6INV.gif)
+Solution…?
+A lot of our time was spent trying to figure out how to get this working. However, I think we came up with a sort of quick and easy solution that will work just fine for our purpose of making a prototype. Instead of truly ‘collecting’ the item, we will have it so that the item in game will be destroyed on ‘pick up’, and the image will simply be unhidden as a UI item in the Inventory on collection. When this happens, we’ll have the goal of ‘collect discs’ set to ‘true’, and will fill out the quest requirements.
+Hopefully this works!
+
+## Small Additions
+We did a little bit of tidying up of the code here and there, but we also added a little bit of an animation on the NPC, which adds just a little bit more life into the character. Fun!
+
+![](Media/journal6ANIM.gif)
+
+## TO DO!!
+We gotta hustle! In the next week we have to:
+Finish Item Pickup
+Add story elements in the UI of the computer
+Add so that the character walks in, makes the computer appear after interaction and then allows the player to begin/accept the quest
+Let's go!!
+
+
 
 
 
