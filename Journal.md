@@ -459,6 +459,7 @@ As for the visuals, those stayed quite close to the original concepts, although 
 ## Final Thoughts
 
 Overall, I am very happy with the final product. We were able to incorporate everything we wanted to, all without knowing anything about Unity before. The extra experimentation made it possible for us to test different ideas to ultimately come to a decent final product.
+The game is here: https://github.com/olivax28/GamePrototyping_Part02_GitHub/tree/main/gameBuild
 
 Shoutout to these channels for helping us with our code:  
 [https://www.youtube.com/@GameCodeLibrary](https://www.youtube.com/@GameCodeLibrary)  
