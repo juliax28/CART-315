@@ -394,8 +394,8 @@ Let's go!!
 ## Picking up from last week…
 
 Last week, we still had a few small tasks to finish before we could call this ‘vertical slice’ finished. We still had to find a way to complete the inventory, since we were still unable to ‘pick up’ our key item (the diskette). Moreover, even though we had most of the functionality in place, we were still missing the actual story content. That is to say, the ‘breadcrumb trail’ of clues wasn’t yet implemented, even though we’d already planned it out in our ‘story map’.   
-\!\[\](Media/storyMap02.PNG)  
-\*the story map in question\*  
+![](Media/storyMap02.PNG)  
+*the story map in question\*  
 However, we were finally able to implement all of the items that we wanted to include. Thankfully, Olivia’s idea to sort of ‘fake’ the inventory collection worked perfectly well, and was still very convincing when it came to feeling  like I, as the player, was collecting the item.   
 Our story elements all were implemented as well, and we also finally added our ‘secret’ at the end; a strange sort of alternate computer-world. When the player wants to escape, they are helplessly sent back to the start of the game. 
 
@@ -416,17 +416,17 @@ Our final game called ‘temp’ speaks on the ephemerality of online spaces and
 Our 3D space and intractable NPC work well and offer a glimpse into a branching dialogue system, allowing the player to make decisions and advance the story. Although the player can only make one decision in the demo/prototype, the functionality is there and can easily be built upon due to the modular way that the dialogue and NPC combination system was built. 
 
 Getting here took a few tries as we explored different avenues for interaction. At first, we were experimenting with a sort of ‘bubble’ UI, which allowed the dialogue to appear next to the player.  
-\!\[\](Media/InteractionSystemE.gif)
+![](Media/InteractionSystemE.gif)
 
 However, after playing through, we ultimately decided that this would be too difficult to see in a 3D space. Moreover, the dialogue didn’t feel dynamic enough. We truly wanted there to be a ‘typing’ effect on the text so that it would feel more alive. And this it did\! After integrating the new system, the NPC felt more responsive, and those that tested our game in class informed us that the new UI was much easier to follow.
 
-\!\[\](Media/final\_Fred.gif)  
-\*Final Dialogue System with typing text, and an ‘auto progress’ mode.\*
+![](Media/final_Fred.gif)  
+*Final Dialogue System with typing text, and an ‘auto progress’ mode.\*
 
 We can also see the interaction system that was set up, which allows to show a prompt to the player to know how to interact, and informs them as to what they are interacting with. Originally, we made the game without the prompts. Adding the extra UI was a small change, but it made an enormous difference in the ease of play, allowing the player to know clearly how and what they can interact with.
 
-!\[\](Media/MovingWindows.gif)  
-\*interacting before the extra UI was added\*
+![](Media/MovingWindows.gif)  
+*interacting before the extra UI was added\*
 
 ## Computer Interface Interaction \+ Breadcrumb Trail
 
@@ -438,7 +438,7 @@ The information itself was written by us and deciding what was going to be able 
 
 The main changes we found ourselves making was adding what we thought were ‘optional’ interactions such as: dragging the windows, allowing them to ‘stack’ on click, and closing the dinos once they were open. It turns out, adding these small things really sold the ‘PC Interface' feeling a lot more, and added an almost non-negotiable functionality to the game.
 
-\!\[\](Media/windows\_final.gif)  
+![](Media/windows_final.gif)  
 The breadcrumb trail was made far easier to navigate through the text as well, adding visual prompts to guide the player. We didn’t want it to be difficult, but we didn’t want to hand the answer to the player either.
 
 This is where we had a little but more testing done. After sending the game to a couple of friends last week, they said that they were able to find the diskette easily (although it took them a moment) or that they ‘had to ask’ but thought it was obvious enough that they felt silly not figuring it out on their own. I feel like this was exactly what I wanted to hear, and so Olivia and I kept this path.
@@ -454,7 +454,7 @@ Once the diskette is retrieved from behind the Green-Lit TV and inserted into th
 ## Visuals
 
 As for the visuals, those stayed quite close to the original concepts, although simplified for time reasons, while also conveying more of an early game-look.  
-\!\[\](Media/GameConcept02.png)
+![](Media/GameConcept02.png)
 
 ## Final Thoughts
 
