@@ -452,7 +452,7 @@ The main change between our original ‘check up’ and our final product was th
 Once the diskette is retrieved from behind the Green-Lit TV and inserted into the computer, the player ends in a grassy-field. This liminal space was inspired by Olivi and I’s earlier experiments in Unity, and also was inspired by the classic windows XP background. We felt like this was a unique and fitting ‘secret’ for the game.
 
 ## Visuals
-
+![](Media/grassy_Plane.gif)
 As for the visuals, those stayed quite close to the original concepts, although simplified for time reasons, while also conveying more of an early game-look.  
 ![](Media/GameConcept02.png)
 
